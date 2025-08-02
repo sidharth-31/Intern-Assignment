@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an ESP32 based heater controller using a DHT22 temperature and humidity sensor and a relay module. The system uses a simple state machine to control the heater based on ambient temperature with hysteresis and safety overheat protection.
+This project is an ESP32 based heater controller using a DHT22 temperature and humidity sensor and a relay module. The system uses a simple state machine to control the heater based on ambient temperature and safety overheat protection.
 
 ### Features
 
@@ -47,11 +47,4 @@ This project is an ESP32 based heater controller using a DHT22 temperature and h
 - Be cautious with high voltages and loads; perform testing on a safe and isolated environment.
 - Relay modules often need external power (5V) and proper common ground with ESP32.
 
-## License
-
-[MIT License](LICENSE)
-
----
-
-Enjoy building and experimenting with your ESP32 heater controller! Feel free to contribute or raise issues.
 
