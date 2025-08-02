@@ -27,8 +27,7 @@ This project is an ESP32 based heater controller using a DHT22 temperature and h
 
 ## Software Setup
 
-- Install [ESP32 Arduino Core](https://github.com/espressif/arduino-esp32) in your Arduino IDE.
-- Install the [DHT sensor library by Adafruit](https://github.com/adafruit/DHT-sensor-library).
+- Install the DHT sensor library.
 - Load `heater_controller.ino` into the Arduino IDE.
 - Adjust pin definitions or temperature thresholds in the code if required.
 - Upload to ESP32 board.
